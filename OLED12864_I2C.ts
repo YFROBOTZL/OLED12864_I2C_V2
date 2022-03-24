@@ -21,7 +21,7 @@ namespace OLED12864_I2C {
     const MAX_X = 127
     const MAX_Y = 63
 
-    let _I2CAddr = 60
+    let _I2CAddr = 61
     let _screen = pins.createBuffer(1025)
     let _buf2 = pins.createBuffer(2)
     let _buf3 = pins.createBuffer(3)
